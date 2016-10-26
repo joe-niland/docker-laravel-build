@@ -2,7 +2,7 @@
 
 ## Building
 
-docker build -t joe-niland/laravel-build .
+docker build -t joeniland/docker-laravel-build .
 
 ## Testing the Box
 
