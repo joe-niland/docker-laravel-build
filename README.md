@@ -1,5 +1,7 @@
 # Build box for Laravel projects
 
+This Docker image was created for use with BitBucket Pipelines, however it can also be used on the Docker engine to automate builds locally.
+
 ## Building
 
 docker build -t joeniland/docker-laravel-build .
