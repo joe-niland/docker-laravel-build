@@ -24,6 +24,7 @@ RUN set -x \
            php7-pdo_mysql \
            php7-soap \
            php7-pcntl \
+           php7-gd \
            nodejs
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
