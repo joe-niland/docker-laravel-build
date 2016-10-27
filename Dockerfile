@@ -4,6 +4,7 @@ MAINTAINER Joe Niland <joe@originalmind.com.au>
 
 RUN set -x \
        && apk --update add \
+           bash \
            php7 \
            php7-xml \
            php7-zip \
