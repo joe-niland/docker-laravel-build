@@ -28,6 +28,7 @@ RUN set -x \
            php7-pcntl \
            php7-gd \
            python2 \
+           git \
            nodejs
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
