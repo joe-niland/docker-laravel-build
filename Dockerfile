@@ -4,6 +4,7 @@ MAINTAINER Joe Niland <joe@originalmind.com.au>
 
 RUN set -x \
        && apk --update add \
+           build-base \
            bash \
            php7 \
            php7-xml \
