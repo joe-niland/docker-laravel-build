@@ -26,6 +26,7 @@ RUN set -x \
            php7-soap \
            php7-pcntl \
            php7-gd \
+           python2 \
            nodejs
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
