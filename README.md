@@ -1,4 +1,4 @@
-# Build box for Laravel projects
+# Build box for Laravel PHP projects
 
 This Docker image was created for use with BitBucket Pipelines, however it can also be used on the Docker engine to automate builds locally.
 
