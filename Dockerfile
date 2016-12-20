@@ -5,6 +5,8 @@ MAINTAINER Joe Niland <joe@originalmind.com.au>
 RUN set -x \
        && apk --update add \
            build-base \
+	   autoconf \
+	   nasm \
            bash \
            php7 \
            php7-xml \
@@ -29,7 +31,8 @@ RUN set -x \
            php7-gd \
            python2 \
            git \
-           nodejs
+           nodejs \
+	   libpng-dev
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
 
