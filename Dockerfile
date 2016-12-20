@@ -33,7 +33,8 @@ RUN set -x \
            python2 \
            git \
            nodejs \
-	   libpng-dev
+	   libpng-dev \
+	   rsync
 
 RUN ln -s /usr/bin/php7 /usr/bin/php
 
