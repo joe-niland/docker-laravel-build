@@ -6,6 +6,7 @@ RUN set -x \
        && apk --update add \
            build-base \
 	   autoconf \
+	   automake \
 	   nasm \
            bash \
            php7 \
