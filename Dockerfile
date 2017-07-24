@@ -32,7 +32,7 @@ RUN set -x \
        php7-gd \
        python2 \
        git \
-       nodejs \
+       nodejs-current-npm \
        libpng-dev \
        rsync \
        openssh-client
