@@ -30,6 +30,7 @@ RUN set -x \
        php7-soap \
        php7-pcntl \
        php7-gd \
+       php7-tokenizer \
        python2 \
        git \
        nodejs-current-npm \
