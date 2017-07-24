@@ -37,8 +37,6 @@ RUN set -x \
        rsync \
        openssh-client
 
-RUN ln -s /usr/bin/php7 /usr/bin/php
-
 RUN npm install --silent -g \
           gulp-cli \
           bower \
