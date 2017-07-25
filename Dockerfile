@@ -7,6 +7,8 @@ RUN set -x \
        build-base \
        autoconf \
        automake \
+       zip \
+       unzip \
        nasm \
        bash \
        php7 \
