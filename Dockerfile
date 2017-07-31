@@ -34,7 +34,6 @@ RUN set -x \
        php7-pcntl \
        php7-gd \
        php7-tokenizer \
-       phpunit \
        python2 \
        git \
        nodejs-current-npm \
