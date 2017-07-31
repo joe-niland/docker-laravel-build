@@ -3,7 +3,8 @@ FROM alpine:edge
 MAINTAINER Joe Niland <joe@originalmind.com.au> 
 
 RUN set -x \
-       && apk --update --allow-untrusted add \
+       && apk update 
+       && apk add \
        build-base \
        autoconf \
        automake \
