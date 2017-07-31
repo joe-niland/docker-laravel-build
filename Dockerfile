@@ -15,6 +15,7 @@ RUN set -x \
        php7-xml \
        php7-zip \
        php7-xmlreader \
+       php7-xmlwriter \
        php7-zlib \
        php7-opcache \
        php7-mcrypt \
@@ -33,6 +34,7 @@ RUN set -x \
        php7-pcntl \
        php7-gd \
        php7-tokenizer \
+       phpunit \
        python2 \
        git \
        nodejs-current-npm \
