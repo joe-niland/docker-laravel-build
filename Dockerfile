@@ -37,7 +37,7 @@ RUN set -x \
        python2 \
        git \
        nodejs-current-npm \
-       'libpng-dev<1.6.29-r1' \
+       'libpng-dev=1.6.28' \
        rsync \
        openssh-client
 
