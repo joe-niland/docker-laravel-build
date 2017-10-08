@@ -22,6 +22,7 @@ RUN set -x \
        php7-mcrypt \
        php7-openssl \
        php7-curl \
+       php7-fileinfo \
        php7-json \
        php7-dom \
        php7-phar \
