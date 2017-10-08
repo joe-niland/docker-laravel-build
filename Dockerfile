@@ -46,7 +46,8 @@ RUN set -x \
 RUN npm install --silent -g \
           gulp-cli \
           bower \
-          yarn
+          yarn \
+          node-sass
 
 WORKDIR /tmp
 
