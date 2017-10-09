@@ -47,6 +47,7 @@ RUN npm install --silent -g \
           gulp-cli \
           bower \
           yarn
+RUN yarn global add node-sass
 
 WORKDIR /tmp
 
